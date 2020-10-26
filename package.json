@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist",
-    "start": "rm -fvr dist && npm run build && node dist/index.js"
+    "start": "rm -fvr dist && npm run build && node dist/index.js",
+    "dev": "rm -fvr dist && babel-node src/index.js"
   },
   "repository": {
     "type": "git",
